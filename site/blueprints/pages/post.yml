@@ -1,0 +1,28 @@
+title: posts
+extends: layouts/page
+
+tabs:
+  content:
+    columns:
+      content:
+        sections:
+          content:
+            type: fields
+            fields:
+              text:
+                type: markdown
+                size: large
+      sidebar:
+        sections:
+          pages: false
+          meta:
+            type: fields
+            fields:
+              date:
+                type: date
+                default: now
+              author:
+                type: users
+              tags: fields/tags
+
+

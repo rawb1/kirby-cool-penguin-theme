@@ -1,0 +1,13 @@
+title: default
+extends: layouts/page
+
+tabs:
+  content:
+    columns:
+      content:
+        sections:
+          content:
+            type: fields
+            fields:
+              text:
+                type: markdown

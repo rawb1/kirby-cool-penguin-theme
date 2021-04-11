@@ -1,0 +1,18 @@
+type: pagetable
+headline: "{{ site.page('posts').title }}"
+parent: site.page("posts")
+template: post
+sortBy: date desc
+showImage: false
+status: all
+columns:
+  title:
+    text: "{{ page.title }}"
+    width: 1/6
+  tags:
+    text: "{{ page.tags }}"
+  date:
+    type: date
+    text: "{{ page.date }}"
+    width: 1/6
+    dateOutputFormat: 'd MMM Y'

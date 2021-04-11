@@ -1,0 +1,159 @@
+Title: About
+
+----
+
+Text:
+
+Welcome to the **Cool Penguin** theme.
+
+#### Built using:
+- (link: https://getkirby.com/ text: Kirby CMS)
+- (link: https://fontawesome.com/ text: Fontawesome) icons
+- Johann Schopplich (link: https://github.com/johannschopplich/kirby-highlighter text: kirby-highlighter)
+- diesdas ⚡️ digital (link: https://github.com/diesdasdigital/kirby-meta-knight text: kirby-meta-knight)
+- Sylvain Jule (link: https://github.com/sylvainjule/kirby-markdown-field text: markdown-field), (link: https://github.com/sylvainjule/kirby-backups text: backups) and (link: https://github.com/sylvainjule/kirby-pagetable text: pagetable)
+- Nico Hoffmann (link: https://github.com/distantnative/retour-for-kirby text: retour-for-kirby)
+- Büro für Gestaltung (link: https://github.com/hananils/kirby-colors text: kirby-colors)
+- Oblik Studio (link: https://github.com/OblikStudio/kirby-link-field text: kirby-link-field)
+- (link: https://highlightjs.org/ text: Highlightjs) syntax styles
+- Penguin icon made by (link: https://www.freepik.com text: Freepik) from (link: https://www.flaticon.com/ text: www.flaticon.com)
+- Icons from (link: https://favicon.io/ text: favicon.io)
+
+#### Best features :
+- Fully responsive
+- No javascript
+- Everything is configurable in the Kirby panel
+- Support all the code highlighting from Highlightjs
+- Dynamic dark theme using the css media feature (link: https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-color-scheme text: prefers-color-scheme)
+
+----
+
+Meta-title: 
+
+----
+
+Meta-description: 
+
+----
+
+Meta-keywords: 
+
+----
+
+Meta-canonical-url: 
+
+----
+
+Meta-author: 
+
+----
+
+Meta-image: 
+
+----
+
+Meta-phone-number: 
+
+----
+
+Og-title: 
+
+----
+
+Og-description: 
+
+----
+
+Og-image: 
+
+----
+
+Og-site-name: 
+
+----
+
+Og-url: 
+
+----
+
+Og-audio: 
+
+----
+
+Og-video: 
+
+----
+
+Og-determiner: 
+
+----
+
+Og-type: 
+
+----
+
+Og-type-article-published-time: 
+
+----
+
+Og-type-article-modified-time: 
+
+----
+
+Og-type-article-expiration-time: 
+
+----
+
+Og-type-article-author: 
+
+----
+
+Og-type-article-section: 
+
+----
+
+Og-type-article-tag: 
+
+----
+
+Twitter-title: 
+
+----
+
+Twitter-description: 
+
+----
+
+Twitter-image: 
+
+----
+
+Twitter-card-type: 
+
+----
+
+Twitter-site: 
+
+----
+
+Twitter-creator: 
+
+----
+
+Robots-noindex: 
+
+----
+
+Robots-nofollow: 
+
+----
+
+Robots-noarchive: 
+
+----
+
+Robots-noimageindex: 
+
+----
+
+Robots-nosnippet: 

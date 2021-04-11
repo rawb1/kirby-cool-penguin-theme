@@ -1,0 +1,14 @@
+tabs:
+  content:
+    icon: text
+    columns:
+      content:
+        width: 2/3
+      sidebar:
+        width: 1/3
+        sticky: true
+        sections:
+          pages: sections/pages
+  seo: 
+    label: seo
+    extends: seo

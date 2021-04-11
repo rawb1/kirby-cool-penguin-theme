@@ -1,0 +1,30 @@
+title: site
+extends: layouts/page
+
+tabs:
+  content:
+    columns:
+      content:
+        sections:
+          message:
+            type: fields
+            fields:
+              message:
+                type: text
+                size: tiny
+                maxlength: 32
+          posts: 
+            extends: sections/posts
+          projects: 
+            extends: sections/projects
+      sidebar:
+        sections:
+          settings:
+            type: fields
+            fields:
+              pagination:
+                type: number
+                default: 10
+                required: true
+
+  theme: tabs/theme

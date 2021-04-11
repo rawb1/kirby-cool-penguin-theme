@@ -1,0 +1,34 @@
+{
+    "name": "rawb1/cool-penguin",
+    "description": "Blog theme for Kirby CMS",
+    "type": "project",
+    "keywords": ["kirby", "cms", "blog", "theme"],
+    "authors": [
+        {
+            "name": "Robin Proquot",
+            "email": "proquotrobin@gmail.com",
+            "homepage": "https://rawb1.me"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0",
+        "getkirby/cms": "^3.0",
+        "johannschopplich/kirby-highlighter": "^1.3",
+        "k-community/markdown-field": "^1.0",
+        "diesdasdigital/kirby-meta-knight": "^1.1",
+        "sylvainjule/backups": "^1.0",
+        "distantnative/retour-for-kirby": "^3.0",
+        "sylvainjule/pagetable": "^1.0",
+        "hananils/kirby-colors": "^1.2",
+        "oblik/kirby-link-field": "^3.0"
+    },
+    "scripts": {
+        "start": [
+            "Composer\\Config::disableProcessTimeout",
+            "@php -S localhost:8000 kirby/router.php"
+        ]
+    },
+    "config": {
+        "optimize-autoloader": true
+    }
+}

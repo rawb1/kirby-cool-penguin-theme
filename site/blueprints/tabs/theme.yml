@@ -1,0 +1,82 @@
+label: theme
+icon: wand
+
+columns:
+  light:
+    width: 1/2
+    sections:
+      light:
+        type: fields
+        fields:
+          light:
+            label: Light theme
+            type: headline
+            numbered: false
+            help: Theme used by **default** 
+          light_background_color:
+            label: Background color
+            type: colors
+            default: white
+            required: true
+          light_primary_color:
+            label: Primary color
+            type: colors
+            default: '#2bbc8a'
+          light_text_color:
+            label: Text color
+            type: colors
+            default: '#383838'
+            required: true
+          light_text_light_color:
+            label: Light text color
+            type: colors
+            default: rgb(126, 126, 126)
+            required: true
+          light_highlight:
+            # TODO: add custom field
+            label: Light highlight
+            type: text
+            default: atom-one-light
+            help: Support all the [highlightjs](https://highlightjs.org/) style
+            required: true
+
+  dark:
+    width: 1/2
+    sections:
+      dark:
+        type: fields
+        fields:
+          dark:
+            label: Dark theme
+            type: headline
+            numbered: false
+            help: Theme activated by **prefers-color-scheme** on [supported browsers](https://caniuse.com/prefers-color-scheme)
+          dark_background_color:
+            label: Background color
+            type: colors
+            default: '#1d1f21'
+            required: true
+          dark_primary_color:
+            label: Primary color
+            type: colors
+            default: '#2bbc8a'
+            required: true
+          dark_text_color:
+            label: Text color
+            type: colors
+            default: '#ccc'
+            required: true
+          dark_text_light_color:
+            label: Light text color
+            type: colors
+            default: 'rgb(126, 126, 126)'
+            required: true
+          dark_highlight:
+            # TODO: add custom field
+            label: Dark highlight
+            type: text
+            default: atom-one-dark
+            required: true
+            help: Support all the [highlightjs](https://highlightjs.org/) style
+
+

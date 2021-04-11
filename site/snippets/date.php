@@ -1,0 +1,1 @@
+<time class="text-light" datetime="<?= $date ?>"><?= $date->toDate('d M Y') ?></time>

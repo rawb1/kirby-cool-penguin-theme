@@ -1,0 +1,21 @@
+type: pagetable
+headline: "{{ site.page('projects').title }}"
+parent: site.page("projects")
+template: project
+sortBy: date desc
+showImage: false
+status: all
+columns:
+  title:
+    text: "{{ page.title }}"
+    width: 1/6
+  description:
+    text: "{{ page.description }}"
+  url:
+    text: "{{ page.link }}"
+    width: 1/6
+  date:
+    type: date
+    text: "{{ page.date }}"
+    width: 1/6
+    dateOutputFormat: 'd MMM Y'

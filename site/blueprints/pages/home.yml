@@ -1,0 +1,16 @@
+title: home
+extends: layouts/page
+
+tabs:
+  content:
+    columns:
+      content:
+        sections:
+          content:
+            type: fields
+            fields:
+              text:
+                type: markdown
+          social: sections/social
+          posts: sections/posts
+          projects: sections/projects

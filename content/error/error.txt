@@ -1,0 +1,14 @@
+Title: Error
+
+----
+
+Text:
+
+```c
+readSector.c:9.4: error: bad expression
+readSector.c:9.10: error: need ';'
+readSector.c:9.12: error: track undeclared
+readSector.c:28.4: error: bad expression
+readSector.c:28.6: error: need ';'
+readSector.c:28.8: error: x undeclared
+```

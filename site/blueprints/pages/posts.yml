@@ -1,0 +1,18 @@
+title: posts
+extends: layouts/page
+
+tabs:
+  content:
+    columns:
+      content:
+        sections:
+          posts: sections/posts
+      sidebar:
+        sections:
+          settings:
+            type: fields
+            fields:
+              pagination:
+                type: number
+                default: 10
+                required: true

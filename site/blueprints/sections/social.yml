@@ -1,0 +1,20 @@
+type: fields
+fields:
+  social_intro:
+    type: text
+  social:
+    type: structure
+    columns:
+      name:
+          width: 1/6
+      link:
+          width: 1/2
+      icon:
+          width: 1/6
+    fields:
+      name:
+        type: text
+      link:
+        type: link
+      icon:
+        type: text

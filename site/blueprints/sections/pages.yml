@@ -1,0 +1,10 @@
+parent: site
+headline: pages
+layout: list
+create: false
+templates:
+  - home
+  - about
+  - posts
+  - projects
+  - error

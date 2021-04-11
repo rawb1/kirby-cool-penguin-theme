@@ -1,0 +1,5 @@
+Title: Writing
+
+----
+
+Pagination: 10

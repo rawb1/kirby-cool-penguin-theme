@@ -1,0 +1,18 @@
+title: project
+extends: layouts/page
+
+tabs:
+  content:
+    columns:
+      content:
+        sections:
+          posts: sections/projects
+      sidebar:
+        sections:
+          settings:
+            type: fields
+            fields:
+              pagination:
+                type: number
+                default: 10
+                required: true

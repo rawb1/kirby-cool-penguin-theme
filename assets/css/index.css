@@ -1,0 +1,218 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css");
+@import url("helpers.css");
+
+/* TODO: animations */
+/* TODO: antialiasing */
+/* TODO: text rendering */
+/* TODO: auto prefixer */
+
+html {
+  height: 100%;
+  box-sizing: border-box;
+  border-top: 2px solid currentColor;
+  color: var(--text-color);
+  background: var(--bg-color);
+}
+
+body {
+  font-weight: 400;
+  font-size: 15px;
+  font-family: "Menlo", "Meslo LG", monospace;
+  line-height: 1.725;
+  max-width: 45rem;
+  margin: auto;
+  padding: 0 1rem 0 1rem;
+  text-rendering: geometricPrecision;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: currentColor;
+  border-bottom: 1px solid;
+  text-decoration: none;
+}
+
+a.link {
+  border: none;
+}
+
+a:not(.static):hover {
+  color: var(--primary-color);
+}
+
+p {
+  text-align: justify;
+}
+
+ul.list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+header {
+  margin-bottom: 3rem;
+}
+
+section,
+article {
+  margin-bottom: 4rem;
+}
+
+article > header {
+  margin-top: calc(4vw - 1rem);
+}
+
+article > header > h1 {
+  margin: 0;
+}
+
+/* HEADER */
+.header {
+  margin-top: 4vw;
+}
+
+.header:hover .logo {
+  filter: none;
+}
+
+.header > .header-top {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  align-items: flex-end;
+}
+
+.header .title {
+  line-height: 1;
+  margin: 0;
+}
+
+.header .logo {
+  width: 3rem;
+  height: 3rem;
+  background-image: url(/assets/img/logo.svg);
+  background-position: 50% 50%;
+  background-size: cover;
+  filter: grayscale(100%);
+}
+
+.header > .navbar {
+  margin: 0.5rem 0;
+}
+
+.header-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+.site-message {
+  margin: 0 0.5rem;
+}
+/* NAVBAR */
+.navbar {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 1rem 0;
+}
+
+main > .navbar {
+  justify-content: end;
+}
+
+.navbar > a {
+  display: inline-block;
+  padding: 0 0.5rem 0 0.5rem;
+}
+
+/* SECTIONS */
+ul.posts-list > li > time {
+  margin-right: 1rem;
+}
+
+nav.pagination {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+nav.pagination a,
+nav.pagination span {
+  padding: 0 0.5rem;
+}
+
+nav.pagination span {
+  color: white;
+}
+
+header.error-header {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+header.error-header > .nav {
+  margin-left: auto;
+}
+
+/* POSTS */
+.post-nav {
+  display: flex;
+  gap: 1rem;
+  margin-left: auto;
+}
+
+/* PROJECTS */
+.project-link {
+  padding: 0 0.5rem;
+  border: 1px solid;
+}
+
+/* FOOTER */
+.footer {
+  font-size: 0.75rem;
+  display: flex;
+  flex-wrap: wrap-reverse;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* SYNTAX */
+.author {
+  font-weight: 700;
+}
+
+pre.hljs {
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  counter-reset: line;
+}
+
+pre.hljs > code::before {
+  content: attr(data-language);
+  float: right;
+  color: gray;
+}
+
+pre.hljs .code-line {
+  counter-increment: line;
+}
+
+pre.hljs .code-line::before {
+  content: counter(line);
+  display: inline-block;
+  margin-right: 1rem;
+  color: gray;
+  opacity: 0.5;
+}
