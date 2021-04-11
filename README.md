@@ -82,7 +82,7 @@ php -S localhost:8000 kirby/router.php
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 ## Acknowledgements
-- Inspired by [Hexo Cactus Theme](https://probberechts.github.io/hexo-theme-cactus/) from [**Pieter Robberechts**](https://github.com/probberechts)
+- Inspired by [Hexo Cactus Theme](https://github.com/probberechts/hexo-theme-cactus) from [**Pieter Robberechts**](https://github.com/probberechts)
 - Powered by [Kirby](https://github.com/getkirby/kirby)
   
 ## License
