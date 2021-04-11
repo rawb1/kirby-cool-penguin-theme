@@ -4,27 +4,27 @@ Title: About
 
 Text:
 
-Welcome to the **Cool Penguin** theme.
+Inspired by [Hexo Cactus Theme](https://probberechts.github.io/hexo-theme-cactus/) from [**Pieter Robberechts**](https://github.com/probberechts)
 
-#### Built using:
-- (link: https://getkirby.com/ text: Kirby CMS)
-- (link: https://fontawesome.com/ text: Fontawesome) icons
-- Johann Schopplich (link: https://github.com/johannschopplich/kirby-highlighter text: kirby-highlighter)
-- diesdas ⚡️ digital (link: https://github.com/diesdasdigital/kirby-meta-knight text: kirby-meta-knight)
-- Sylvain Jule (link: https://github.com/sylvainjule/kirby-markdown-field text: markdown-field), (link: https://github.com/sylvainjule/kirby-backups text: backups) and (link: https://github.com/sylvainjule/kirby-pagetable text: pagetable)
-- Nico Hoffmann (link: https://github.com/distantnative/retour-for-kirby text: retour-for-kirby)
-- Büro für Gestaltung (link: https://github.com/hananils/kirby-colors text: kirby-colors)
-- Oblik Studio (link: https://github.com/OblikStudio/kirby-link-field text: kirby-link-field)
-- (link: https://highlightjs.org/ text: Highlightjs) syntax styles
-- Penguin icon made by (link: https://www.freepik.com text: Freepik) from (link: https://www.flaticon.com/ text: www.flaticon.com)
-- Icons from (link: https://favicon.io/ text: favicon.io)
-
-#### Best features :
+### Features
 - Fully responsive
 - No javascript
-- Everything is configurable in the Kirby panel
-- Support all the code highlighting from Highlightjs
-- Dynamic dark theme using the css media feature (link: https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-color-scheme text: prefers-color-scheme)
+- Configurable color schemes with dark mode
+- Pick your own code highlighting scheme
+- Everything is configurable in the kirby panel
+- Font Awesome icons
+
+### Built with
+- [Kirby CMS](https://getkirby.com/)
+- [Fontawesome](https://fontawesome.com/) icons
+- Johann Schopplich [kirby-highlighter](https://github.com/johannschopplich/kirby-highlighter)
+- diesdas ⚡️ digital [kirby-meta-knight](https://github.com/diesdasdigital/kirby-meta-knight)
+- Sylvain Jule [markdown-field](https://github.com/sylvainjule/kirby-markdown-field), [backups](https://github.com/sylvainjule/kirby-backups)  and [pagetable](https://github.com/sylvainjule/kirby-pagetable)
+- Nico Hoffmann [retour-for-kirby](https://github.com/distantnative/retour-for-kirby)
+- Büro für Gestaltung [kirby-colors](https://github.com/hananils/kirby-colors)
+- Oblik Studio [kirby-link-field](https://github.com/OblikStudio/kirby-link-field)
+- [Highlightjs](https://highlightjs.org/) syntax styles
+- Penguin icon made by [Freepik](https://www.freepik.com) from [www.flaticon.com](https://www.flaticon.com/)
 
 ----
 

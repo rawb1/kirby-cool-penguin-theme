@@ -4,7 +4,7 @@ Title: Home
 
 Text:
 
-Hey, this is a (link: https://getkirby.com/ text: Kirby CMS target: _blank rel: noopener) blog theme. It is eavily inspired by (link: https://probberechts.github.io/hexo-theme-cactus/ text: Hexo Cactus Theme target: _blank rel: noopener) from (link: https://github.com/probberechts text: **Pieter Robberechts** ).
+Hey, this is a (link: https://getkirby.com/ text: Kirby CMS target: _blank rel: noopener) blog theme. It is eavily inspired by [Hexo Cactus Theme](https://probberechts.github.io/hexo-theme-cactus/) from [**Pieter Robberechts**](https://github.com/probberechts).
 
 It support configurable theme colors via the Kirby panel with **dark mode** based on the css media feature (link: https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-color-scheme text: prefers-color-scheme) and much more !
 Below, there is a list of you’re social networks, most recent writings and projects.
