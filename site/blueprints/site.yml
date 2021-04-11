@@ -13,9 +13,9 @@ tabs:
                 type: text
                 size: tiny
                 maxlength: 32
-          posts: 
+          posts:
             extends: sections/posts
-          projects: 
+          projects:
             extends: sections/projects
       sidebar:
         sections:
@@ -26,5 +26,8 @@ tabs:
                 type: number
                 default: 10
                 required: true
+              copyright_start_year:
+                label: Copyright start year
+                type: number
 
   theme: tabs/theme

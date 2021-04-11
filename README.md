@@ -69,7 +69,7 @@ php -S localhost:8000 kirby/router.php
 
 ## Roadmap
 * [ ] Deployement documentation
-* [ ] Copyright years
+* [x] Copyright years
 * [ ] CSS Image lightbox
 * [ ] Pages search
 * [ ] Tags search

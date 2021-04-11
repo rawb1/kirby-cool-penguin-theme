@@ -10,6 +10,10 @@ Pagination: 5
 
 ----
 
+Copyright-start-year: 2021
+
+----
+
 Meta-title: 
 
 ----
@@ -179,3 +183,7 @@ Dark-text-light-color: #a1cdfd
 ----
 
 Dark-highlight: atom-one-dark
+
+----
+
+Copyright-start: 2021-02-05 00:00:00

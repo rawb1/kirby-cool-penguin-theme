@@ -1,7 +1,9 @@
 <footer class="footer">
     <div>
         <p class="text-light">
-            Copyright © 2020-<?= date("Y"); ?>
+            Copyright ©
+            <?php $start_year = $site->copyright_start_year() ?>
+            <?php if (!$start_year->isEmpty()) echo $start_year . '-' ?><?= date("Y") ?>
             <span class="author"><?= $site->meta_author() ?></span>
         </p>
     </div>
