@@ -2,7 +2,7 @@
 
 A blog theme 🐧 for [Kirby CMS](https://getkirby.com/)
 
-> **WIP:** this is stil a work in progress
+> **WIP:** this is stil a work in progress [DEMO 🐧](https://rawb1.me/)
 
 ## Table of contents
   - [About](#about)
