@@ -5,6 +5,7 @@ return [
         'extra' => true
     ],
     'smartypants' => true,
+    'kirby-extended.highlighter.line-numbering' => true,
     'community.markdown-field.buttons' => ['headlines', 'bold', 'italic', 'ul', 'ol', 'link', 'email', 'blockquote', 'horizontal', 'rule', 'strikethrough', 'pagelink', 'file', 'footnote'],
     'routes' => [
         [

@@ -71,13 +71,17 @@ class HighlightAdapter
                 
                 $highlightedCode = $highlighter->highlightAuto($code);
             }
-            
-            $lines = preg_split('/\R/', $highlightedCode->value);
-            $highlightedCode = '<span class="code-line">' . implode("</span>\n<span class=\"code-line\">", $lines) . '</span>';
-            
+
+            // Line numbering support
+            if (option('kirby-extended.highlighter.line-numbering', false)) {
+                $lines = preg_split('/\R/', $highlightedCode->value);
+                $lineClass = option('kirby-extended.highlighter.line-numbering-class', 'code-line');
+                $highlightedCode->value = '<span class="' . $lineClass . '">' . implode("</span>\n<span class=\"$lineClass\">", $lines) . '</span>';
+            }
+
             // Append highlighted wrapped in `code` block to parent `pre`
             $codeNode = $dom->createDocumentFragment();
-            $codeNode->appendXML('<code data-language="' . $language . '">' . $highlightedCode . '</code>');            $preNode->appendChild($codeNode);
+            $codeNode->appendXML('<code data-language="' . $language . '">' . $highlightedCode->value . '</code>');            $preNode->appendChild($codeNode);
         }
 
         // Save all changes
