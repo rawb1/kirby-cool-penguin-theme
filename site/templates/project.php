@@ -1,6 +1,6 @@
 <?php snippet('head') ?>
-
-<?php if ($page->text()->isEmpty() && !$page->link()->isEmpty()) go($page->link()) ?>
+<?php $link = $page->link()->toLinkObject() ?>
+<?php if ($page->text()->isEmpty() && $link) go($link) ?>
 <main>
     <?php snippet('navbar') ?>
     <article id="project">
@@ -12,8 +12,8 @@
                 <div class="text-light">
                     <?php snippet('date', ['date' => $page->date()]) ?>
                 </div>
-                <?php if (!$page->link()->isEmpty()) : ?>
-                    <a class="project-link" rel="noopener" href="<?= $page->link()->toLinkObject() ?>">
+                <?php if ($link) : ?>
+                    <a class="project-link" rel="noopener" href="<?= $link ?>">
                         link
                         <i class="fas fa-external-link-alt"></i>
                     </a>
