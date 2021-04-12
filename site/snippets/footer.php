@@ -8,13 +8,14 @@
         </p>
     </div>
     <nav>
-        <?php foreach (collection('pages') as $page) : ?>
+        <?php foreach (collection('pages') as $p) : ?>
             <span class="pipe">
-                <a class="link text-light" href="<?= $page->url() ?>"><?= $page->title() ?></a>
+                <a class="link text-light" href="<?= $p->url() ?>"><?= $p->title() ?></a>
             </span>
         <?php endforeach ?>
     </nav>
 </footer>
+<?php snippet('zoom') ?>
 </body>
 
 </html>

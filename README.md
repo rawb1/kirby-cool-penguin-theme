@@ -24,7 +24,7 @@ Inspired by [Hexo Cactus Theme](https://probberechts.github.io/hexo-theme-cactus
 
 ### Features
 - Fully responsive
-- No javascript
+- Medium like images zoom
 - Configurable color schemes with dark mode
 - Pick your own code highlighting scheme
 - Everything is configurable in the kirby panel
@@ -33,6 +33,7 @@ Inspired by [Hexo Cactus Theme](https://probberechts.github.io/hexo-theme-cactus
 ### Built with
 - [Kirby CMS](https://getkirby.com/)
 - [Fontawesome](https://fontawesome.com/) icons
+- François Chalifour [medium-zoom](https://github.com/francoischalifour/medium-zoom)
 - Johann Schopplich [kirby-highlighter](https://github.com/johannschopplich/kirby-highlighter)
 - diesdas ⚡️ digital [kirby-meta-knight](https://github.com/diesdasdigital/kirby-meta-knight)
 - Sylvain Jule [markdown-field](https://github.com/sylvainjule/kirby-markdown-field), [backups](https://github.com/sylvainjule/kirby-backups)  and [pagetable](https://github.com/sylvainjule/kirby-pagetable)
@@ -70,7 +71,7 @@ php -S localhost:8000 kirby/router.php
 ## Roadmap
 * [ ] Deployement documentation
 * [x] Copyright years
-* [ ] CSS Image lightbox
+* [x] ~~CSS Image lightbox~~ medium like image zoom
 * [ ] Pages search
 * [ ] Tags search
 * [ ] Comments support
