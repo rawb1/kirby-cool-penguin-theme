@@ -4,7 +4,7 @@
     <?php snippet('navbar') ?>
     <article id="post">
         <header>
-            <h1 class="text-primary static">
+            <h1 class="static">
                 <?= $page->title() ?>
             </h1>
             <div class="header-links">
