@@ -4,6 +4,8 @@ A blog theme 🐧 for [Kirby CMS](https://getkirby.com/)
 
 > **WIP:** this is stil a work in progress [DEMO 🐧](https://rawb1.me/)
 
+<img width="1335" alt="Screenshot 2021-04-12 at 16 13 30" src="https://user-images.githubusercontent.com/25453942/114409027-505dc400-9baa-11eb-97b5-e162e0dd4b36.png">
+
 ## Table of contents
   - [About](#about)
     - [Features](#features)
