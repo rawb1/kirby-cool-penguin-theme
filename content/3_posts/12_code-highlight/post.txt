@@ -1,0 +1,187 @@
+Title: Code highlight
+
+----
+
+Text:
+
+```php
+<?php
+return [
+    'debug' => true,
+    'markdown' => [
+        'extra' => true
+    ],
+```
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+```
+
+```css
+@import url("helpers.css");
+
+/* TODO: animations */
+/* TODO: antialiasing */
+/* TODO: text rendering */
+/* TODO: auto prefixer */
+
+html {
+  height: 100%;
+  box-sizing: border-box;
+  border-top: 2px solid currentColor;
+  color: var(--text-color);
+  background: var(--bg-color);
+}
+```
+
+----
+
+Date: 2021-04-12
+
+----
+
+Author:
+
+- mF7N17Fy
+
+----
+
+Tags: 
+
+----
+
+Meta-title: 
+
+----
+
+Meta-description: 
+
+----
+
+Meta-keywords: 
+
+----
+
+Meta-canonical-url: 
+
+----
+
+Meta-author: 
+
+----
+
+Meta-image: 
+
+----
+
+Meta-phone-number: 
+
+----
+
+Og-title: 
+
+----
+
+Og-description: 
+
+----
+
+Og-image: 
+
+----
+
+Og-site-name: 
+
+----
+
+Og-url: 
+
+----
+
+Og-audio: 
+
+----
+
+Og-video: 
+
+----
+
+Og-determiner: 
+
+----
+
+Og-type: website
+
+----
+
+Og-type-article-published-time: 2021-04-12 00:00:00
+
+----
+
+Og-type-article-modified-time: 2021-04-12 00:00:00
+
+----
+
+Og-type-article-expiration-time: 2021-04-12 00:00:00
+
+----
+
+Og-type-article-author: 
+
+----
+
+Og-type-article-section: 
+
+----
+
+Og-type-article-tag: 
+
+----
+
+Twitter-title: 
+
+----
+
+Twitter-description: 
+
+----
+
+Twitter-image: 
+
+----
+
+Twitter-card-type: 
+
+----
+
+Twitter-site: 
+
+----
+
+Twitter-creator: 
+
+----
+
+Robots-noindex: default
+
+----
+
+Robots-nofollow: default
+
+----
+
+Robots-noarchive: default
+
+----
+
+Robots-noimageindex: default
+
+----
+
+Robots-nosnippet: default

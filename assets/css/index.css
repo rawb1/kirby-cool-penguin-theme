@@ -79,6 +79,10 @@ figure {
   margin: 1rem auto;
 }
 
+img + figcaption {
+  font-style: italic;
+  font-size: 0.75rem;
+}
 /* HEADER */
 .header {
   margin-top: 4vw;

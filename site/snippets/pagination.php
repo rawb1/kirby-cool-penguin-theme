@@ -1,7 +1,7 @@
 <?php if ($pagination->hasPages()) : ?>
     <nav class="pagination">
         <?php if ($pagination->hasPrevPage()) : ?>
-            <a href="<?= $pagination->prevPageURL() ?>">
+            <a class="link" href="<?= $pagination->prevPageURL() ?>">
                 <i class="fas fa-chevron-left"></i>
                 <!-- prev -->
             </a>
@@ -11,12 +11,12 @@
             <?php if ($pagination->page() === $r) : ?>
                 <span class="bg-primary" aria-current="page"><?= $r ?></span>
             <?php else : ?>
-                <a href="<?= $pagination->pageURL($r) ?>"><?= $r ?></a>
+                <a class="link" href="<?= $pagination->pageURL($r) ?>"><?= $r ?></a>
             <?php endif ?>
         <?php endforeach ?>
 
         <?php if ($pagination->hasNextPage()) : ?>
-            <a href="<?= $pagination->nextPageURL() ?>">
+            <a class="link" href="<?= $pagination->nextPageURL() ?>">
                 <!-- next -->
                 <i class="fas fa-chevron-right"></i>
             </a>

@@ -1,0 +1,168 @@
+Title: Emails
+
+----
+
+Text:
+
+_FROM: https://getkirby.com/docs/reference/text/kirbytags/email_
+
+###Email without link text
+(email: bastian@getkirby.com)
+
+####Email with link text
+(email: bastian@getkirby.com text: Send me an email)
+
+####Email with a title attribute
+(email: bastian@getkirby.com text: Send me an email title: Contact me)
+
+####Email with a rel attribute
+(email: bastian@getkirby.com text: Send me an email rel: me)
+
+####Email with a custom CSS class
+(email: bastian@getkirby.com text: Send me an email class: email)
+
+----
+
+Date: 2021-04-12
+
+----
+
+Author:
+
+- mF7N17Fy
+
+----
+
+Tags: 
+
+----
+
+Meta-title: 
+
+----
+
+Meta-description: 
+
+----
+
+Meta-keywords: 
+
+----
+
+Meta-canonical-url: 
+
+----
+
+Meta-author: 
+
+----
+
+Meta-image: 
+
+----
+
+Meta-phone-number: 
+
+----
+
+Og-title: 
+
+----
+
+Og-description: 
+
+----
+
+Og-image: 
+
+----
+
+Og-site-name: 
+
+----
+
+Og-url: 
+
+----
+
+Og-audio: 
+
+----
+
+Og-video: 
+
+----
+
+Og-determiner: 
+
+----
+
+Og-type: website
+
+----
+
+Og-type-article-published-time: 2021-04-12 00:00:00
+
+----
+
+Og-type-article-modified-time: 2021-04-12 00:00:00
+
+----
+
+Og-type-article-expiration-time: 2021-04-12 00:00:00
+
+----
+
+Og-type-article-author: 
+
+----
+
+Og-type-article-section: 
+
+----
+
+Og-type-article-tag: 
+
+----
+
+Twitter-title: 
+
+----
+
+Twitter-description: 
+
+----
+
+Twitter-image: 
+
+----
+
+Twitter-card-type: 
+
+----
+
+Twitter-site: 
+
+----
+
+Twitter-creator: 
+
+----
+
+Robots-noindex: default
+
+----
+
+Robots-nofollow: default
+
+----
+
+Robots-noarchive: default
+
+----
+
+Robots-noimageindex: default
+
+----
+
+Robots-nosnippet: default
