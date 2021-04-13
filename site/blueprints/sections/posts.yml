@@ -10,6 +10,7 @@ columns:
     text: "{{ page.title }}"
   tags:
     text: "{{ page.tags }}"
+    width: 1/4
   date:
     type: date
     text: "{{ page.date }}"

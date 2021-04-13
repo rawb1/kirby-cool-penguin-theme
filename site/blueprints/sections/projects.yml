@@ -11,9 +11,6 @@ columns:
     width: 1/6
   description:
     text: "{{ page.description }}"
-  url:
-    text: "{{ page.link }}"
-    width: 1/6
   date:
     type: date
     text: "{{ page.date }}"
