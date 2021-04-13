@@ -107,7 +107,6 @@ img + figcaption {
 .header .logo {
   width: 3rem;
   height: 3rem;
-  background-image: url(/assets/img/logo.svg);
   background-position: 50% 50%;
   background-size: cover;
   filter: grayscale(100%);

@@ -1,7 +1,8 @@
 <body>
+    <?php image('/android-chrome-512x512.png') ?>
     <header class="header">
         <div class="header-top">
-            <a class="link logo" aria-label="home" href="<?= $site->url() ?>"></a>
+            <?php snippet('logo') ?>
             <h1 class="title"><a class="link static" href="<?= $site->url() ?>"><?= $site->title() ?></a></h1>
             <span class="text-light site-message"><?= $site->message() ?></span>
         </div>
