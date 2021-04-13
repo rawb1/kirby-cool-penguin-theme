@@ -240,11 +240,11 @@ pre.hljs {
   counter-reset: line;
 }
 
-pre.hljs > code::before {
+/* pre.hljs > code::before {
   content: attr(data-language);
   float: right;
   opacity: 0.75;
-}
+} */
 
 pre.hljs .code-line {
   counter-increment: line;

@@ -8,7 +8,6 @@ status: all
 columns:
   title:
     text: "{{ page.title }}"
-    width: 1/6
   tags:
     text: "{{ page.tags }}"
   date:
