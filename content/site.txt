@@ -2,7 +2,7 @@ Title: Cool Penguin
 
 ----
 
-Message: noot noot !
+Message: hello !
 
 ----
 
