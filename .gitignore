@@ -53,3 +53,7 @@ Icon
 # License
 # ---------------
 /site/config/.license
+
+# Configs
+# ---------------
+# /site/config/config.php
