@@ -1,8 +1,9 @@
 <?php
 
 return function ($page) {
+    $author = $page->author()->toUser();
     return [
-        'author' => $page->author()->toUser()->name(),
+        'author' => $author ? $author->name() : '',
         'tags' => $page->tags()->split()
     ];
 };
