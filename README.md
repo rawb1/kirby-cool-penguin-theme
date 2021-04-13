@@ -55,6 +55,7 @@ Inspired by [Hexo Cactus Theme](https://probberechts.github.io/hexo-theme-cactus
 ```sh
 git clone https://github.com/rawb1/kirby-cool-penguin-theme.git
 cd kirby-cool-penguin-theme/
+cp site/config/config.example.php site/config/config.php
 composer install
 ```
 

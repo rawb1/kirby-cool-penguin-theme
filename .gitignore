@@ -56,4 +56,5 @@ Icon
 
 # Configs
 # ---------------
-# /site/config/config.php
+/site/config/config*.php
+!/site/config/config.example.php
