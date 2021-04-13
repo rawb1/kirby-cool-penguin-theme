@@ -5,17 +5,13 @@
 
 # System files
 # ------------
-
 Icon
 .DS_Store
 
 # Temporary files
 # ---------------
-
-/media/*
-!/media/index.html
-/site/logs/*
-!/site/logs/index.html
+/media/
+/site/logs/
 
 # Lock files
 # ---------------
@@ -34,21 +30,15 @@ Icon
 
 # Cache Files
 # ---------------
-
-/site/cache/*
-!/site/cache/index.html
+/site/cache/
 
 # Accounts
 # ---------------
-
-/site/accounts/*
-!/site/accounts/index.html
+/site/accounts/
 
 # Sessions
 # ---------------
-
-/site/sessions/*
-!/site/sessions/index.html
+/site/sessions/
 
 # License
 # ---------------
