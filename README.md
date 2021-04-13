@@ -46,10 +46,15 @@ Inspired by [Hexo Cactus Theme](https://probberechts.github.io/hexo-theme-cactus
 - Penguin icon made by [Freepik](https://www.freepik.com) from [www.flaticon.com](https://www.flaticon.com/)
 
 ## Get started
+
+### Compatibility
+- Kirby 3 or later
+- php 7.1 or later
+  
 ### Prerequisites
 - git
-- php 7.1 or later
 - composer
+- php-mbstring php-curl php-ctype php-gd zip unzip php-zip php-sqlite3 php-xml
 
 ### Install
 ```sh
@@ -63,12 +68,12 @@ composer install
 php -S localhost:8000 kirby/router.php
 ```
 
-### Configuration
-- Most of the configuration is done via the kirby panel.
-- You can also edit the config file in `site/config/config.php`
+## Configuration
+Add a config files to extend the default one. [Kirby doc](https://getkirby.com/docs/guide/configuration#multi-environment-setup)
 
-### Compatibility
-- Kirby 3 or later
+For example `site/config/config.localhost.php` 
+
+> Further configuration is done via the kirby panel.
 
 ## Roadmap
 * [ ] Deployement documentation
@@ -79,7 +84,6 @@ php -S localhost:8000 kirby/router.php
 * [ ] Comments support
 * [ ] I18n support
 * [ ] RSS support
-
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
