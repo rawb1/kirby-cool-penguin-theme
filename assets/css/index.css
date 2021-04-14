@@ -216,6 +216,10 @@ article h4::before {
   margin-right: 0.5rem;
 }
 
+article li::marker {
+  color: var(--primary-color);
+}
+
 blockquote {
   display: flex;
   justify-content: center;
