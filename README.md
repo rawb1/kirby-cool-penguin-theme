@@ -75,8 +75,12 @@ For example `site/config/config.localhost.php`
 
 > Further configuration is done via the kirby panel.
 
+## Deployment
+- You can find how to deploy this theme using git [here](https://rawb1.me/posts/how-to-deploy-kirby-cms-using-git)
+- You can find how to serve this theme using caddy [here](https://rawb1.me/posts/how-to-serve-kirby-cms-using-caddy)
+
 ## Roadmap
-* [ ] Deployement documentation
+* [x] Deployment documentation
 * [x] Copyright years
 * [x] ~~CSS Image lightbox~~ medium like image zoom
 * [ ] Pages search
