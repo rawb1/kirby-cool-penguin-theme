@@ -256,6 +256,11 @@ blockquote > p {
   color: var(--primary-color);
 }
 
+article ul,
+article ol {
+  padding-left: 2rem;
+}
+
 pre.hljs {
   padding: 0.5rem 1rem;
   border-radius: 0.25rem;
