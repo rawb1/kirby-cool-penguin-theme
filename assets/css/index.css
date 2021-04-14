@@ -224,6 +224,21 @@ article li {
   margin-bottom: 1rem;
 }
 
+.footnotes {
+  margin-top: 3rem;
+  border-top: 1px solid var(--text-color-light);
+}
+
+.footnotes::before {
+  content: "Notes:";
+  margin-top: 0.5rem;
+  display: block;
+}
+
+.footnotes > hr {
+  display: none;
+}
+
 blockquote {
   display: flex;
   justify-content: center;
