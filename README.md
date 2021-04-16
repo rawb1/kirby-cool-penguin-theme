@@ -70,8 +70,10 @@ php -S localhost:8000 kirby/router.php
 
 ## Configuration
 Add a config files to extend the default one. [Kirby doc](https://getkirby.com/docs/guide/configuration#multi-environment-setup)
-
 For example `site/config/config.localhost.php` 
+
+### Logo and favicons
+To override the default logo you can add a `logo.svg` or `a logo.png` at the root of the project 
 
 > Further configuration is done via the kirby panel.
 

@@ -1,15 +1,3 @@
-<?php
-$defaultLogo = asset('assets/img/logo.svg');
-$svgLogo = asset('logo.svg');
-$pngLogo = asset('logo.png');
-
-if ($svgLogo->exists()) {
-    $logo = $svgLogo;
-} elseif ($pngLogo->exists()) {
-    $logo = $pngLogo;
-} else {
-    $logo = $defaultLogo;
-}
-?>
-
-<a class="link logo" aria-label="home" href="<?= $site->url() ?>" style="background-image: url(<?= $logo->url() ?>);"></a>
+<a class="link logo" aria-label="home" href="<?= $site->url() ?>">
+    <?= svg('logo.svg') ?: (asset('logo.png')->exists() ? asset('logo.png')->html() : svg('assets/img/logo.svg')) ?>
+</a>
