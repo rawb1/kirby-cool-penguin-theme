@@ -352,7 +352,7 @@ pre.hljs .code-line::before {
 }
 
 .gallery figure {
-  height: min(20vh, 30vw);
+  height: min(25vh, 40vw);
   margin: 0;
 }
 
