@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 /* TEXT */
 .text-primary {
   color: var(--primary-color);
@@ -44,7 +51,9 @@ a:not(.static).text-primary:hover {
 .tooltip:before {
   content: attr(data-text);
   position: absolute;
-  transform: translateY(75%);
+  -webkit-transform: translateY(75%);
+      -ms-transform: translateY(75%);
+          transform: translateY(75%);
   width: 4rem;
   display: none;
 }
