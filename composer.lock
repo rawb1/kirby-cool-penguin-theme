@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "741a2058f2df5fb7fac6e27b7d3dacb5",
+    "content-hash": "3c6146d95548b24187e303e3e74e12aa",
     "packages": [
         {
             "name": "claviska/simpleimage",
@@ -1040,6 +1040,44 @@
                 "source": "https://github.com/sylvainjule/kirby-backups/tree/1.0.1"
             },
             "time": "2020-06-17T15:28:47+00:00"
+        },
+        {
+            "name": "sylvainjule/matomo",
+            "version": "1.0.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sylvainjule/kirby-matomo.git",
+                "reference": "11d754eb15f7c37cf0877095e50b407f66715096"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sylvainjule/kirby-matomo/zipball/11d754eb15f7c37cf0877095e50b407f66715096",
+                "reference": "11d754eb15f7c37cf0877095e50b407f66715096",
+                "shasum": ""
+            },
+            "require": {
+                "getkirby/composer-installer": "^1.1"
+            },
+            "type": "kirby-plugin",
+            "extra": {
+                "installer-name": "matomo"
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Sylvain Julé",
+                    "email": "contact@sylvain-jule.fr"
+                }
+            ],
+            "description": "Matomo helpers and panel sections for Kirby",
+            "support": {
+                "issues": "https://github.com/sylvainjule/kirby-matomo/issues",
+                "source": "https://github.com/sylvainjule/kirby-matomo/tree/1.0.6"
+            },
+            "time": "2020-12-23T19:00:39+00:00"
         },
         {
             "name": "sylvainjule/pagetable",

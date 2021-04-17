@@ -14,8 +14,9 @@
             </span>
         <?php endforeach ?>
     </nav>
+    <?php snippet('zoom') ?>
+    <?php snippet('matomo') ?>
 </footer>
-<?php snippet('zoom') ?>
 </body>
 
 </html>

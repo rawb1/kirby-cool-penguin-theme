@@ -29,5 +29,5 @@ tabs:
               copyright_start_year:
                 label: Copyright start year
                 type: number
-
+  matomo: tabs/matomo
   theme: tabs/theme
